@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - name: mariadb-chart
+  repository: file://../mariadb-chart
+  version: 0.1.0
+description: php-nginx e-commerce website
+maintainers:
+- - email: deepcloud.28@gmail.com
+  name: Deepak verma
+name: php-nginx-chart
+type: application
+version: 0.1.0
+
+...
+files:
+  php-nginx-chart-0.1.0.tgz: sha256:8cfa61f02736e5fb3896f91baa5b85a162735cdda947e02b893a79ce041e6291
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJj0+IOCRAYXUW1pnBfhwAAqucMANB6yONPdsCl5TT4/xLph/Em
+20xEqS3ai/QElNLYIswYf2PSjG3z2wDrTQoyDG0WVifWjzTFhkcAqTbh7FplMezu
+7QI+8sfs1WkrZlexykoxYEq7fKcO01P7YSXWpU8W+8XuH8QX1GTIbK3vYzHBOSEt
+v3pDivFHJvanos4CM1uLV4IHkLuHek5PMdwlygbhB4a4XTy+34uSiHpe8QgVfncr
+PTTfJJQliBV23+JwCdaUKf/jCRPk2m89KLKXOLU6Kw/SWKOW/LsnL0dc9krKTqBe
+u/cqNuY84nphy+mTAOImyKaH40+pv+LwJSerBf09eQsmgfnsCjqeptSwo/PNoVzZ
+ZNtfEu6aouK17n3VpjjOD6S+z4gw7ulvsNAvz50kF82JD9dGYpxh7bz2vZbrLaDE
+4ZMH20QbELq9KGhTWx6D3K/qPVay+kt6YL96wgpRANfTFbz1OZn7R28w1KQOuUhz
+HKCVAyzpb+9SiS2IY+lchhHrjYkkF9cIhzQlmfscLw==
+=KIdG
+-----END PGP SIGNATURE-----
