@@ -3,7 +3,7 @@ entries:
   php-nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-01-27T15:46:08.648422949Z"
+    created: "2023-01-27T16:12:12.465692608Z"
     dependencies:
     - name: mariadb-chart
       repository: file://../mariadb-chart
@@ -16,6 +16,6 @@ entries:
     name: php-nginx-chart
     type: application
     urls:
-    - https://github.com/DeepCloudmosphere/helm-charts/php-db-chart/php-nginx-chart-0.1.0.tgz
+    - https://deepcloudmosphere.github.io/helm-charts/php-nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-01-27T15:46:08.645057301Z"
+generated: "2023-01-27T16:12:12.464522175Z"
