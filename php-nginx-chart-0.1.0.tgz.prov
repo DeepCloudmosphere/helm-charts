@@ -5,7 +5,7 @@ apiVersion: v2
 appVersion: 1.16.0
 dependencies:
 - - name: mariadb-chart
-  repository: file://../mariadb-chart
+  repository: https://deepcloudmosphere.github.io/helm-charts/
   version: 0.1.0
 description: php-nginx e-commerce website
 maintainers:
@@ -17,17 +17,17 @@ version: 0.1.0
 
 ...
 files:
-  php-nginx-chart-0.1.0.tgz: sha256:0f5eeb95dc402673b04f44fa970aab9ef40df41ab9d1f7257b2e02ef437cb6ac
+  php-nginx-chart-0.1.0.tgz: sha256:d7f9143b5ee8d934945f6f6e187e973abc9a0140caceca8b3f840a99e6e2e757
 -----BEGIN PGP SIGNATURE-----
 
-wsDcBAEBCgAQBQJj0/oXCRAYXUW1pnBfhwAAPikMAGl2F2VaGIuPwh1I6C9yOmmV
-Ze3J9jsANcmxfe3IgXReyw2qaDIdNzMD4H7SnIkmaOOJBu1i2IY3OVSgQ+UoSX+B
-tCphivsV3R8rMevSxMK5V9OCoG7r/eDvBp/zH1ULAKABjKC/WQVXrHNzr9UyVRDn
-lqg0paVuIT6pJ0LL+rDjDG3IgsPmuVIPUx8v/ID8ZCxtgjh4PW9MiQHSwSYZ/iuf
-tQuTx42jIxVvGCFzf0n6p/gfWDdGlgQ/4pCICfok9/M+olxmcvlSPdXhxIh0iinv
-CGqNacNzxHaf5TmAo293JSuhFc/zPf/Uz+5s8HXFzOkH1WCdNN4of0Saq/M4JUMX
-p+CIPZOwImiBeJtO+2/pPSfkghUj09g3RWX8BToyLkAhgdMyQGPPh72J7I4qfD2s
-UQeCydZvM+Dd0Sp2586JB+g1xgbzjRjzxi3DRfdqcSh5o/+T/5wS8yZ5T0w5SgWN
-3ED7jWn4pXVoAk+BZ2KMzaXA30WCcnVK7tivklFzmQ==
-=YW1d
+wsDcBAEBCgAQBQJj1AHNCRAYXUW1pnBfhwAAVvkMAEDRythCzwCnTOAADg+Gz4W/
+hK/HVRLzhIJs0/LpnrTgnalOjDLWWesEGYC4m4YJKwaw2mDhyz7cGmyA2qY9+Xiq
+vAiTWCgSlI4F9Z41dzhhym9lj+htDFDXXOGP6LHbqx5mfuGIznA17pcCvoBK9ffn
+yidPsgj+e1rEVk3a9XSdqo4XOjTFDi+IkZmpyqutvyVVF5lOaPZVEIXAJWnpMExF
+SYxDFmG/IQG3VlKy6WCVw/ktVR6JyTXOTxptPeaWzvX7JOvkQOTxMSdhU2XPkNyf
+jEN2Q/EW+2fuE/rn9wSSrj+yl5eVExeQxMopYxgDhpWQxS9gXNSQfhK/iBWUgyS5
+qNRdOvtD8qJeLM857m7Oz8Fg3eNQ+1aq+jFrADwcA32xq5e/yWvWltSSgHwVWaYu
+DefhvqpR6UOCaMQOaOauMMxrRHl/0/8a84Ztte3+lW3mZhpUUfNgxbmXBiPrV6s8
+KiyGGyxfT+VBA7akDT3w6yg5i2OW2irgTAMZdmRKvA==
+=BgDd
 -----END PGP SIGNATURE-----
