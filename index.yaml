@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  php-nginx-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-01-27T16:22:29.577586501Z"
+    dependencies:
+    - name: mariadb-chart
+      repository: file://../mariadb-chart
+      version: 0.1.0
+    description: php-nginx e-commerce website
+    digest: 0f5eeb95dc402673b04f44fa970aab9ef40df41ab9d1f7257b2e02ef437cb6ac
+    maintainers:
+    - email: deepcloud.28@gmail.com
+      name: Deepak verma
+    name: php-nginx-chart
+    type: application
+    urls:
+    - https://deepcloudmosphere.github.io/helm-charts/php-nginx-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-01-27T16:22:29.573601379Z"
