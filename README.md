@@ -1,2 +1,9 @@
-# helm-charts
-my all pocs helm-charts
+# helm-charts-repo
+
+add repo :
+
+     $  helm repo add myrepo  https://deepcloudmosphere.github.io/helm-charts/
+
+install helm-chart:
+
+      $ helm install php1 myrepo/php-nginx-chart
