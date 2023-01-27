@@ -1,2 +1,5 @@
-# helm-charts
-my all pocs helm-charts
+# helm-charts-repo
+
+how to add repo :
+
+     $  helm repo add myrepo  https://deepcloudmosphere.github.io/helm-charts/
