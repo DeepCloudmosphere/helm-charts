@@ -3,7 +3,7 @@ entries:
   php-mariadb-chart:
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-03-24T12:59:30.286632253Z"
+    created: "2023-03-24T13:48:37.991513859Z"
     description: A Helm chart for php-mariadb
     digest: 4352733db94b2062102a2ab24583d87b238d2da2cf3001fd49aed6d8d2747c13
     maintainers:
@@ -17,13 +17,13 @@ entries:
   php-nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-03-24T12:59:30.28829229Z"
+    created: "2023-03-24T13:48:37.993220408Z"
     dependencies:
     - name: php-mariadb-chart
       repository: https://deepcloudmosphere.github.io/helm-charts/
       version: 0.1.0
     description: php-nginx e-commerce website
-    digest: 7d513982377c59d76dd8aac65a83bc57cb39f499231f162b133cb64522876d03
+    digest: 3f9ce2d41b11ae2af2511ab5d8ea9ba38c071bda18d1b2bd4dc6f161244f269f
     maintainers:
     - email: deepcloud.28@gmail.com
       name: Deepak verma
@@ -32,4 +32,4 @@ entries:
     urls:
     - https://deepcloudmosphere.github.io/helm-charts/php-nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-03-24T12:59:30.28557369Z"
+generated: "2023-03-24T13:48:37.990508531Z"
