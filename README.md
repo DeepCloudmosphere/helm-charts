@@ -7,3 +7,4 @@ add repo :
 install helm-chart:
 
       $ helm install php1 myrepo/php-nginx-chart
+      $ helm install php1 myrepo/php-mariadb-chart
