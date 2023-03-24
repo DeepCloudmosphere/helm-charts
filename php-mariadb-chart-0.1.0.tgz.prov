@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 10.8.6
+description: A Helm chart for php-mariadb
+maintainers:
+- - email: deepcloud.28@gmail.com
+  name: Deepak verma
+name: php-mariadb-chart
+type: application
+version: 0.1.0
+
+...
+files:
+  php-mariadb-chart-0.1.0.tgz: sha256:4352733db94b2062102a2ab24583d87b238d2da2cf3001fd49aed6d8d2747c13
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJkHZvrCRCiCHH4bw/8agAA9xgMADClMVEyY5PiiHsBrVQeFBxm
+Hlmnvg3F91X6q5UybEe8yJr89UlNXjiHX0bO8DZQIRBHbRVaTjcOkPtm4u5zhd5L
+2IleV6q8UbM7075w3p4kdjW3PkIvldDB28OrY6B47ezMllaejscI+nla9bV9Rzcv
+VWV36S1NcD9oRxRMlKKKSrD41IphA7HaE6aqA8BdobA88bdIgjbSC5UO/LouWhEx
+pjoWuW/3YW8bOEyRuM8iF5WJNDvM0xjapJVqweu+JzybVT+H5uMiBfHSEGmwVqbc
+z6Um03CirNon267osDetPLzV/+psE95EYWkwBBKxmIdssuxkeD0CNOw568L3kJp5
+NxiA4PXqMdGKX93SpoOBmPbfcgMpcxc2jo8KwI35C/cp4TYEMYNA57fWje6xpLgL
+e4vlPwYqHE6c8GxAQeMOQJI32as9u7MEBZbbkRJKXIXfRvBB+pQu2UersgiPUQA8
+zUe6yBdZcjbxv8m19EILdGneaWjOnygH5SIpuQKErg==
+=wtgl
+-----END PGP SIGNATURE-----
