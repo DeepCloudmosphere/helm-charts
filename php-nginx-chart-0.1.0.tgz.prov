@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.16.0
+dependencies:
+- - name: php-mariadb-chart
+  repository: https://deepcloudmosphere.github.io/helm-charts/
+  version: 0.1.0
+description: php-nginx e-commerce website
+maintainers:
+- - email: deepcloud.28@gmail.com
+  name: Deepak verma
+name: php-nginx-chart
+type: application
+version: 0.1.0
+
+...
+files:
+  php-nginx-chart-0.1.0.tgz: sha256:7d513982377c59d76dd8aac65a83bc57cb39f499231f162b133cb64522876d03
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJkHZ6ZCRCiCHH4bw/8agAAd/gMACDspZotvDhdf2lpFdndxnuY
+Cdc4BbCbQaMwm1wN/R+8wFsCfz9P98wOekjzjEIl38yQK4HaTPgwEXN0vC3iXt16
+RYtJLtxkpOXF0L/RpgZhJKQQuW+ZyfyoXdZu0S/S4LnOIGb8bN3Pz8rWxiNEAyeq
+P9bOGZeYa8puJdcpwOO8Y9pAZ9V4ytT9CbIdYGq7jZ9DauHY/nEO3MaQfE6r/YsJ
+iGX0LeaP8fv4iPacLHf82QtzyylQadarQ/9wigbJvnSJO16kZhB4Atva5Vn1CKRM
+DlxI0P42jUq9Qzjm5gUaZUt1o/6+bwbaSbuy2XLYWDplWTCOZnIQMiFfSUOEX+Mj
+NOK3RLPm0+FIds73W55go0gBqHcHt2gCDUp9Z8oC8sWFevGW/NXCB1SxyJcNHBdr
+Ap14sMSMhXMqoUQOOU8uABp+8wntePyqtxI3+rQLpZgGZV5C0Yz8IUIuQ+cNn+2j
+N7aUEuJp0gXmIB7zxcVOhXBVzp8ntPu5bTmZ7jiWmg==
+=Grcn
+-----END PGP SIGNATURE-----
