@@ -1,0 +1,29 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 10.8.6
+description: A Helm chart for php-mariadb
+maintainers:
+- - email: deepcloud.28@gmail.com
+  name: Deepak verma
+name: mariadb-chart
+type: application
+version: 0.1.0
+
+...
+files:
+  mariadb-chart-0.1.0.tgz: sha256:8be19b5d3720cff507e674454702a9698da6af9bf40de6bcbd5344148c1efec7
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJkHZR0CRCiCHH4bw/8agAA7ikMAG6TPbFaycS5s/iQNGTI8f7c
+BmyAPmjv+jeUJcSFYjfXqaysoZYBvvi6MDMNa5ZGG0byOfjvXeXkfQdxdFMd6lTh
+26pFz2lyPG2fqxqH+btrrIDFrsmTdvTZFYp+9mn5eIL8IxssSIhhO6ZubZnDVGfm
+tYiNuUxB12MuAig/rvdhpNUfKfvJlXJZF0zzD5GefNS6iU+fgQEeeNflMCJFav8m
+LXTlrDmrlM4cdcrQrO3PMJdtucgr+blQfhJksIVgKlgvxnwC/O9KfH0RZiqJBTxS
+BApeV0GnpT4ppeQYRZ75r037zH6XjwqXZklqqjLwFk7UP1fnp6wtvBhypI23EDlz
+tjD6ks+L82NSyM/O7Nwr5W+1CtCxlidfjXByNHCF8QbrNwgU0LkZbWntrfezG5x2
+V8ifXGNNM38h7/smGOc/7kU4WPwSQlfs/IZJmRInRAnAQVSIypUTfWUtjciGv7oW
+zRvFPrwuoxE19QCO8PdZ0n3VH6uf0V0H8lXMZQ4T0A==
+=A0Iw
+-----END PGP SIGNATURE-----
