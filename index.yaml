@@ -3,7 +3,7 @@ entries:
   php-mariadb-chart:
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-05-29T10:02:21.95494993Z"
+    created: "2023-05-29T11:20:45.323059516Z"
     description: A Helm chart for php-mariadb
     digest: 4352733db94b2062102a2ab24583d87b238d2da2cf3001fd49aed6d8d2747c13
     maintainers:
@@ -17,13 +17,13 @@ entries:
   php-mariadb-ebs-chart:
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-05-29T10:02:21.957687086Z"
+    created: "2023-05-29T11:20:45.325744434Z"
     dependencies:
     - name: aws-ebs-csi-driver
       repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
       version: 2.19.0
     description: A Helm chart for php-mariadb
-    digest: 1ada1364dff11f3a9e0055a0a61a9c3c77270aab2e34b78b327516931b9e54eb
+    digest: 31d00568fee63285526a96a23d3c47d5de5dbe4e98518c3d74b59e39cf4b8f58
     maintainers:
     - email: deepcloud.28@gmail.com
       name: Deepak verma
@@ -35,7 +35,7 @@ entries:
   php-nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-05-29T10:02:21.959335915Z"
+    created: "2023-05-29T11:20:45.327403264Z"
     dependencies:
     - name: php-mariadb-chart
       repository: https://deepcloudmosphere.github.io/helm-charts/
@@ -50,4 +50,22 @@ entries:
     urls:
     - https://deepcloudmosphere.github.io/helm-charts/php-nginx-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-05-29T10:02:21.953861918Z"
+  php-nginx-ebs-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-05-29T11:20:45.331094849Z"
+    dependencies:
+    - name: php-mariadb-ebs-chart
+      repository: https://deepcloudmosphere.github.io/helm-charts/
+      version: 0.1.1
+    description: php-nginx e-commerce website
+    digest: 10dd6fb717598e349d8e73c36eefeb0a487934353d230f44c1cca4bee1caf1a4
+    maintainers:
+    - email: deepcloud.28@gmail.com
+      name: Deepak verma
+    name: php-nginx-ebs-chart
+    type: application
+    urls:
+    - https://deepcloudmosphere.github.io/helm-charts/php-nginx-ebs-chart-0.1.1.tgz
+    version: 0.1.1
+generated: "2023-05-29T11:20:45.322012432Z"
