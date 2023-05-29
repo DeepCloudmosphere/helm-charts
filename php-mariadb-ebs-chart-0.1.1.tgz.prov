@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 10.8.6
+dependencies:
+- - name: aws-ebs-csi-driver
+  repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
+  version: 2.19.0
+description: A Helm chart for php-mariadb
+maintainers:
+- - email: deepcloud.28@gmail.com
+  name: Deepak verma
+name: php-mariadb-ebs-chart
+type: application
+version: 0.1.1
+
+...
+files:
+  php-mariadb-ebs-chart-0.1.1.tgz: sha256:1ada1364dff11f3a9e0055a0a61a9c3c77270aab2e34b78b327516931b9e54eb
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJkcvtsCRCGDEds/kdDFAAAo+8MAKy9wALAHIEXL/NY5b4z+iiU
+P/SPCmlqSJJ1fSAwk4FMNDcEmuiJ7LZyJTf4yJzbEDgrC5aQzkR2pWZP7B8oqjg4
+XxGcsDW8ZGrpeL9pSSfBHAVvSNlXPaEewVmK8YCl7YSffdlDrrTDCqJPxhZ2Qlf3
+i9kdrnxnm5qRTUyxkyuZw4+yJkiG+IINupAiwj9BLd2CwZ18lJtwO+F1F+k/lB0t
+29gy6KDnQ9NKjUGB26Gb/iRX6akhzWRTIU4Xgqi78XQOEc9fpJBG0HuVnjFMmczF
+KpnyKLm9tN+M/MJlarLIwsKC8u4GU9dp5kjNuu5wzKY/juCH99gt6/CYnhQTFahr
+Tescd5xjvqkyo+/qQq3IeSc/T7boYPHxec+QTvvYd622zQVI3oe4qGXCaeNYSpKu
+nZZYvaeIIhIneLEAY+X4OkSZYcEqLYqOKzUj9EZKprR0PTGzkf90Y7hPoDa/pSSL
+IN+3U02NQZizcPxzp/a/SlPwpiylCFL0+jH1uwrgjQ==
+=YhnD
+-----END PGP SIGNATURE-----
