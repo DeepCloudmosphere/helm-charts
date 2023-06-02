@@ -3,7 +3,7 @@ entries:
   php-mariadb-chart:
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-06-02T13:04:12.118131986Z"
+    created: "2023-06-02T14:14:34.350836Z"
     description: A Helm chart for php-mariadb
     digest: 4352733db94b2062102a2ab24583d87b238d2da2cf3001fd49aed6d8d2747c13
     maintainers:
@@ -17,7 +17,24 @@ entries:
   php-mariadb-ebs-chart:
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-06-02T13:04:12.126688757Z"
+    created: "2023-06-02T14:14:34.360809556Z"
+    dependencies:
+    - name: aws-ebs-csi-driver
+      repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
+      version: 2.19.0
+    description: A Helm chart for php-mariadb
+    digest: 75e44102580f677f4166b3902a441340f81f1e6393e173ee169ec4680cc8075c
+    maintainers:
+    - email: deepcloud.28@gmail.com
+      name: Deepak verma
+    name: php-mariadb-ebs-chart
+    type: application
+    urls:
+    - https://deepcloudmosphere.github.io/helm-charts/php-mariadb-ebs-chart-0.1.6.tgz
+    version: 0.1.6
+  - apiVersion: v2
+    appVersion: 10.8.6
+    created: "2023-06-02T14:14:34.35816337Z"
     dependencies:
     - name: aws-ebs-csi-driver
       repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
@@ -34,7 +51,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-06-02T13:04:12.123890402Z"
+    created: "2023-06-02T14:14:34.353561298Z"
     dependencies:
     - name: aws-ebs-csi-driver
       repository: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
@@ -52,7 +69,7 @@ entries:
   php-mariadb-kops-chart:
   - apiVersion: v2
     appVersion: 10.8.6
-    created: "2023-06-02T13:04:12.128740912Z"
+    created: "2023-06-02T14:14:34.361675111Z"
     description: A Helm chart for php-mariadb
     digest: ef2931798b6f45ffcc509b1f338e08a31fcb2345428644eb7ccc2566687be6f8
     maintainers:
@@ -66,7 +83,7 @@ entries:
   php-nginx-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-02T13:04:12.131511338Z"
+    created: "2023-06-02T14:14:34.363344707Z"
     dependencies:
     - name: php-mariadb-chart
       repository: https://deepcloudmosphere.github.io/helm-charts/
@@ -84,7 +101,7 @@ entries:
   php-nginx-ebs-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-06-02T13:04:12.136142412Z"
+    created: "2023-06-02T14:14:34.366846399Z"
     dependencies:
     - name: php-mariadb-ebs-chart
       repository: https://deepcloudmosphere.github.io/helm-charts/
@@ -99,4 +116,4 @@ entries:
     urls:
     - https://deepcloudmosphere.github.io/helm-charts/php-nginx-ebs-chart-0.1.1.tgz
     version: 0.1.1
-generated: "2023-06-02T13:04:12.115832887Z"
+generated: "2023-06-02T14:14:34.349111641Z"
